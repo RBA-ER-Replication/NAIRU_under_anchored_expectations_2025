@@ -1,0 +1,19 @@
+inf: Quarterly trimmed mean CPI, prior to 1978 it is weighted median inflation, source from ABS
+
+
+ulc: unilt labour costs, source from ABS
+
+
+pm: Australian import price deflator, source from ABS
+
+
+u: unemployment rate, source from ABS
+
+
+infx: Long-term inflation expectations, see paper including Graph 6 and appendix C. Internally constructed by RBA
+
+
+
+oil:  Brent oil price in Australian dollars, source from Thomson Reuters Datastream
+
+

@@ -1,0 +1,8 @@
+
+# When committing all files in the current directory, this file will automatically exclude EViews backups
+*_Snapshots/
+*.~rg
+*.evsettings
+.Rhistory
+*.~f1
+*.xlsx
