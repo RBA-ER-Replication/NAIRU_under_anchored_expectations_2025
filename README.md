@@ -10,7 +10,9 @@ This repo contains data and replication files for Ballantyne and Cusbert (2025) 
 This repository contains both code and data, each under different licenses:
 
 Code: Licensed under the BSD 3-Clause License.
+
 All datasets in the Data subfolder: Licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0)
+
 Please refer to the respective license files for full details.
 
 ## Coding Languages
@@ -23,7 +25,7 @@ Questions, comments and bug reports can be sent to `cusbertt`  at domain `rba.go
 
 - `README` is this read me file.
 - `LICENSE` contains the license agreement that covers all code in this repo (Data subfolder is covered by separate agreement).
-- `Data` subfolder contains the inmput data, data description and license document.
+- `Data` subfolder contains the input data, data description and license document.
 - `ReplicationCode` subfolder contains the eviews programs (.prg) to run generate the results in the paper and a worfile (.wf1) with the results done already.
 
 ### Subfolder: ReplicationCode 
@@ -42,7 +44,7 @@ The code produces the tables (param_breaks, unrestricted_tests, and appendixtabl
 
 Graph 3 and Graph 6 are made from different models and sources.
 
-Tghe `Output` subfolder has the spreadsheets constructed with graph data.
+The `Output` subfolder has the spreadsheets constructed with graph data.
 
 The code will produce a workfile but the folder also includes the completed workfile `NAIRU_model_Output.wf1`.
 
