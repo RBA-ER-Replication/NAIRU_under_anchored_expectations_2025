@@ -48,6 +48,8 @@ The `Output` subfolder has the spreadsheets constructed with graph data.
 
 The code will produce a workfile but the folder also includes the completed workfile `NAIRU_model_Output.wf1`.
 
+Graph data for graphs 3 and 10 is included in an xlsx file in the Graph_Data subfolder
+
 
 ## Code Structure
 
@@ -68,5 +70,7 @@ Repo
     |── Uncertainty
     |    |──nairu_uncertainty_main.prg
     |    └──uncertainty_orig_revised.prg
+    |── Graph_Data
+    |    └──GraphData.xlsx
     └── Output
 ```
