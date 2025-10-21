@@ -25,11 +25,14 @@ Questions, comments and bug reports can be sent to `cusbertt`  at domain `rba.go
 
 - `README` is this read me file.
 - `LICENSE` contains the license agreement that covers all code in this repo (Data subfolder is covered by separate agreement).
-- `Data` subfolder contains the input data, data description and license document.
+- `Data` subfolder contains the input data, data description, license document, and some graph data.
 - `ReplicationCode` subfolder contains the eviews programs (.prg) to run generate the results in the paper and a worfile (.wf1) with the results done already.
 
-### Subfolder: ReplicationCode 
+### Subfolder: Data/Graph_Data 
 
+Graph data for graphs 3 and 10 is included in an xlsx file in the Graph_Data subfolder
+
+### Subfolder: ReplicationCode 
 
 To build the models and generate the results run `nairu_model_main_code.prg`.
 
@@ -48,7 +51,6 @@ The `Output` subfolder has the spreadsheets constructed with graph data.
 
 The code will produce a workfile but the folder also includes the completed workfile `NAIRU_model_Output.wf1`.
 
-Graph data for graphs 3 and 10 is included in an xlsx file in the Graph_Data subfolder
 
 
 ## Code Structure
@@ -60,7 +62,9 @@ Repo
 ├── Data
 │   ├── LICENSE-data.md (License agreement for data in this subfolder)
 │   ├── NAIRU_update_data.csv
-│   └── Input data details and sources.txt 
+│   ├── Input data details and sources.txt
+    └── Graph_Data
+|        └──GraphData.xlsx
 └── ReplicationCode
     ├── model_orig_revised.prg
     |── model_orig_precovid.prg
@@ -70,7 +74,5 @@ Repo
     |── Uncertainty
     |    |──nairu_uncertainty_main.prg
     |    └──uncertainty_orig_revised.prg
-    |── Graph_Data
-    |    └──GraphData.xlsx
     └── Output
 ```
